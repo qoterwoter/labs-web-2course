@@ -1,0 +1,12 @@
+.parameters div {
+    padding: 5px 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 5px 0;
+    width: 120px;
+    cursor: pointer;
+}
+
+#mycanvas {
+    background-color: aliceblue;
+}

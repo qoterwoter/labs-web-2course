@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лекция 8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="parameters">
+        <h2>Выберите, что нарисовать:</h2>
+        <div onclick="createDot()">Точка</div>
+        <div onclick="createLine()">Линия</div>
+        <div onclick="createRectangle()">Прямоугольник</div>
+        <div onclick="createCircle()">Круг</div>
+        <div onclick='createEllipse()'>Эллипс</div>
+    </div>
+    <h3>Рисунок:</h3>
+    <canvas id="mycanvas"></canvas>
+</body>
+<script src="script.js"></script>
+
+</html>
